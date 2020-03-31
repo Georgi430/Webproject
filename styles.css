@@ -1,0 +1,44 @@
+body {
+    background-color:#476C7D;
+    color: white;
+    font-family: helvetica;
+}
+
+h1 {
+    color: rgb(122, 191, 236);
+    text-align: center;
+}
+
+p {
+    color:yellow;
+}
+
+.button {
+    display: block;
+    width: 10%;
+    text-align: center;
+    padding: 5px ;
+    color: rgb(219, 191, 80);
+    background-color: seagreen;
+}
+
+
+#Table {
+    color: rgb(33, 33, 117);
+    background-color: blanchedalmond;
+    border:solid #ddd;
+    border-collapse: collapse;
+    text-align: center;
+    width: 40%;
+    box-sizing: 3px;
+}
+#Table th {
+    background-color: rgb(181, 225, 236);
+    border:solid #ddd; 
+    }
+#Table td {border:solid #ddd;}
+#Table tr:nth-child(even){background-color: #f2f2f2c2;}
+
+#Table tr:hover{background-color:#ddd;}
+
+#links {background-color: rgb(219, 191, 80);}
