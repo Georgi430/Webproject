@@ -1,0 +1,21 @@
+.List {
+  background: rgba(26, 147, 247, 0.897);
+  padding: 20px;
+}
+
+ul > li {
+  color: black;
+  background: rgba(216, 235, 250, 0.897);
+  padding: 0px;
+  margin-bottom: auto;
+  margin-left: 30px;
+}
+
+ol > li {
+  color: black;
+  background: rgba(216, 235, 250, 0.897);
+  list-style-type: armenian;
+  padding: 0;
+  margin-left: 30px;
+}
+/*# sourceMappingURL=List.css.map */

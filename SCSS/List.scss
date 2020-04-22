@@ -1,0 +1,25 @@
+$color:rgb(0, 0, 0);
+$background:rgba(26, 147, 247, 0.897);
+$textbackground: rgba(216, 235, 250, 0.897);
+
+
+.List {
+    background: $background;
+    padding:20px;  
+}
+
+ul>li {
+    color: $color;
+    background: $textbackground;
+    padding: 0px;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+ol>li {
+    color: $color;
+    background: $textbackground;
+    list-style-type: armenian;
+    padding: 0; 
+    margin-left: 30px;
+}
+

@@ -4,11 +4,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Homepage</title>
         <link rel="stylesheet" href="styles.css">
-        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="SCSS/List.css">
         <style>
             @media screen and (max-device-width: 640px){
                 .screen-only{display:none}
             }
+            .row > div {
+                text-align: center;
+                padding: 5px;
+                background-color: rgb(151, 156, 156);
+                border: 3px solid black;
+                height: 50px;
+                color: aliceblue;
+            }
+
                 
         </style>
 
@@ -21,22 +31,48 @@
        <img src=https://www.thisiscolossal.com/wp-content/uploads/2018/04/agif2opt.gif; width=30%>
 
         <p> First Paragraph</p>
-        
-        <div class= Lists>
-            <ul>Unordered list 
-                <li>First line</li>
-                <li>Seconde line</li>
-                <li>Third line</li>
-            </ul>
-
-            <ol>Ordered list
-                <li>Text</li>
-                <li>Text</li>
-                <li>Text</li>
-            
-            </ol>
+        <div class =row>
+            <div class="col-lg-2 col-sm-4"  >
+                Menu
+            </div>
+            <div class="col-lg-2 col-sm-4">
+                Categories
+            </div >
+            <div class="col-lg-2 col-sm-4">
+                ABout us
+            </div>
+            <div class="col-lg-2 col-sm-4">
+                Contacts
+            </div>
+            <div class="col-lg-2 col-sm-4">
+                FAQ
+            </div>
         </div>
+        <h2>Unordered list </h2> 
+        <ul class="List">
+            
+            <li>First line Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id fermentum elit. </li>
+            <li>Seconde line Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id fermentum elit.</li>
+            <li>Third line Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id fermentum elit.</li>    
+            <li>Forth LIne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id fermentum elit. </li>    
+    
+        </ul>
+            
+        <h2 class="p"; color:;  >Ordered list</h2>
 
+        <ol class="List">
+             
+            <li>Text Aenean ornare porta sagittis.</li>
+            <li>Text Aenean ornare porta sagittis.</li>
+            <li>Text Aenean ornare porta sagittis.</li>
+            <li>Text Aenean ornare porta sagittis.</li>
+            <li>Text Aenean ornare porta sagittis.</li>
+            <li>Text Aenean ornare porta sagittis.</li>  
+             
+        </ol>
+        
+
+        
         <P>Seconde paragraph</P>
         <p class="screen-only">This Paragraph won't display on phone</p>
 

@@ -9,17 +9,18 @@ h1 {
     text-align: center;
 }
 
-p {
-    color:yellow;
-}
 
 .button {
     display: block;
-    width: 10%;
+    border: solid #476C7D;
+    width: 70px;
     text-align: center;
-    padding: 5px ;
+    padding: 10px ;
     color: rgb(219, 191, 80);
     background-color: seagreen;
+}
+#links .button:hover {
+    background-color: rgb(84, 182, 144) ;
 }
 
 
@@ -31,12 +32,16 @@ p {
     text-align: center;
     width: 40%;
     box-sizing: 3px;
+    margin: 5px;
 }
 #Table th {
+    padding: 5px;
     background-color: rgb(181, 225, 236);
     border:solid #ddd; 
     }
-#Table td {border:solid #ddd;}
+#Table td {
+    padding: 3px;
+    border:solid #ddd;}
 #Table tr:nth-child(even){background-color: #f2f2f2c2;}
 
 #Table tr:hover{background-color:#ddd;}
